@@ -5,7 +5,7 @@ let ulDOM = document.querySelector("ul");
 function newElement(){
     
     if(inputDOM.value === ""){
-        $('.error').toast("show")
+        $('.error').toast("show");
     }
     else{
         $('.success').toast("show");
